@@ -1,0 +1,29 @@
+<div class="System-AddSystemForm Component-Composite-FormView">
+	<?php if($data['error']): ?>
+		<div class="Notice"><?php echo $data['error'] ?></div>
+	<?php endif ?>
+	<div class="Description">
+		<p>Fill out the following form to create a new system. Once this step
+		is complete, you can configure your server to submit it's status to this
+		system.</p>
+	</div>
+	<div class="Field">
+		<label for="system_refid">System Id:</label>
+		<div class="Description">
+		<p>The Id by which your system will be referred as. It must be unique and
+		may only contain alphanumeric characters and underscores.</p>
+		</div>
+		<input name="system_refid" type="text" maxlength="64">
+	</div>
+	<div class="Field">
+		<label for="system_name">System Name:</label>
+		<input name="system_name" type="text" maxlength="255">
+	</div>
+	<div class="Field">
+		<label for="system_description">System Description:      *Optional*</label>
+		<textarea name="system_description" rows="10"></textarea>
+	</div>
+	<div class="Submit">
+		<input type="submit" value="Create System">
+	</div>
+</div>

@@ -1,0 +1,33 @@
+<div class="Component-Content-ContentPanel">
+	<div class="Title"><h2><?php echo $data['title']?></h2></div>
+
+	<?php if($data['text']): ?>
+	<div class="TextFrame">
+		<?php echo \StringUtil::quoteHtml($data['text']) ?>
+	</div>
+	<?php endif ?>
+
+	<?php if(count($data['items']) > 0 || count($components) > 0): ?>
+	<hr>
+	<?php endif ?>
+
+	<?php if(count($data['items']) > 0): ?>
+	<div class="ItemFrame">
+		<ul>
+		<?php foreach($data['items'] as $item): ?>
+			<li><?php echo $item ?></li>
+		<?php endforeach ?>
+		</ul>
+	</div>
+	<?php endif ?>
+
+	<?php if(count($components) > 0): ?>
+	<div class="ComponentFrame">
+	<?php foreach($components as $component): ?>
+		<div class="ComponentEnclosure">
+			<?php echo $component->render('html') ?>
+		</div>
+	<?php endforeach ?>
+	</div>
+	<?php endif ?>
+</div>

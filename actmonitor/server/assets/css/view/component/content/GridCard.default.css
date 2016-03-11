@@ -1,0 +1,63 @@
+.Component-Content-GridCard
+{
+	width: 22em;
+	margin: 0.22em;
+	padding: 0.2em 1em 0.4em 1em;
+	overflow: auto;
+	color: #fff;
+	background-color: #444;
+}
+
+.Component-Content-GridCard a
+{
+	color: #fff;
+}
+
+.Component-Content-GridCard a:hover
+{
+	color: #ff9;
+}
+
+.Component-Content-GridCard .Name
+{
+	font-size: 1.6em;
+	padding: 0.8em 0em 0.5em 0em;
+	color:#fff;
+}
+
+.Component-Content-GridCard .Tag
+{
+	float: right;
+}
+
+.Component-Content-GridCard .Time
+{
+	float: left;
+	padding-top: 0.2em;
+	font-size: 0.9em;
+}
+
+.Green
+{
+	background-color: #128d12;
+}
+
+.Red
+{
+	background-color: #cf3030;
+}
+
+.Blue
+{
+	background-color: #0661c7;
+}
+
+.Purple
+{
+	background-color: #522b94;
+}
+
+.Gray
+{
+	background-color: #444;
+}

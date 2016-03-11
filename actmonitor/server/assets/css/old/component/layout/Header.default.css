@@ -1,0 +1,108 @@
+.Layout-Header
+{
+	position: fixed;
+	top:0px;
+	width:100%;
+}
+
+.Layout-Header-ContentContainer
+{
+	margin-top: 6.95em;
+	overflow: auto;
+}
+
+.Layout-Header .Userbar
+{
+	width:100%;
+	height:1.8em;
+	background-color:#444;
+}
+
+.Layout-Header .Userbar .LeftSide
+{
+	background-color:#eee;
+	height:1.8em;
+	width:27em;
+	border-right: 0.1em solid #ddd;
+	float:left;
+}
+
+.Layout-Header .Userbar ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.Layout-Header .Userbar ul li
+{
+	display: inline;
+	float: right;
+	list-style: none;
+	margin-right: 15px;
+	margin-top:5px;
+}
+
+.Layout-Header .Userbar a
+{
+	color: #fff;
+}
+
+.Layout-Header .Userbar a:hover
+{
+	color: #ffcda5;
+}
+
+.Layout-Header .Header
+{
+	width: 100%;
+	height: 5em;
+	background-color:#fff;
+	overflow:auto;
+	border-top:0.1em solid #ccc;
+	border-bottom: 0.1em solid #aaa;
+}
+
+.Layout-Header .Header .Title
+{
+	width: 18em;
+	float: left;
+}
+
+.Layout-Header .Header .Title h1
+{
+	margin: 0;
+	padding: 0.65em 0em 0em 0.3em;
+	font-size: 2em;
+	color: #000;
+}
+
+.Layout-Header .Header .Menubar ul
+{
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+
+.Layout-Header .Header .Menubar li
+{
+	display: inline;
+	list-style: none;
+}
+
+.Layout-Header .Header .Menubar li a
+{
+	display: block;
+	float: left;
+	padding: 3.2em 1em 0.5em 1em;
+	color: #333;
+}
+
+.Layout-Header .Header .Menubar li a:hover
+{
+	color: #ff8d30;	
+}
+
+.Layout-Header .Header .Menubar li.Current a
+{
+	color: #ff8d30;	
+}

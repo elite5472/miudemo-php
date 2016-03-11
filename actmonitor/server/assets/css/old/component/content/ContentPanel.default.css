@@ -1,0 +1,57 @@
+.Content-ContentPanel
+{
+	margin: 0.8em;
+	padding: 0.4em;
+	color:#333;
+}
+
+.Content-ContentPanel .Title
+{
+	padding: 0.4em 0em 0.4em 0em;
+	font-size: 1.6em;
+}
+
+.Content-ContentPanel .ItemFrame
+{
+	padding: 0.8em 0.3em 0.4em 0.3em;
+	font-size: 1.1em;
+}
+
+.Content-ContentPanel .ItemFrame li
+{
+	margin-bottom: 0.2em;
+}
+
+.Content-ContentPanel .ItemFrame li a
+{
+	color: #333;	
+}
+
+.Content-ContentPanel .ItemFrame li a:hover
+{
+	color: #ff8d30;	
+}
+
+.Content-ContentPanel .ItemFrame iframe
+{
+	border: 0.1em solid #ddd;
+	margin: 0.8em 0em 0.4em 0em;
+	padding: 0.3em;
+}
+
+.Content-ContentPanel .ComponentFrame
+{
+	padding: 0.8em 0em 0.4em 0em;
+}
+
+.Content-ContentPanel .TextFrame
+{
+	padding: 0.8em 0.3em 0.4em 0.3em;
+	color: #444;
+}
+
+.Content-ContentPanel .TextFrame p
+{
+	margin-top: 1em;
+	text-indent: 1em;
+}

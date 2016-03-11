@@ -1,0 +1,59 @@
+<div class="Security-RegisterForm Component-Composite-FormView">
+	<div class="Title">Register</div>
+	<div class="Description">
+		In order to create a new account, please fill out the form below.
+	</div>
+	<div>
+	<?php if(count($data['errors']) > 0): ?>
+		<div class="Notice">There were problems with your submission, see below.</div>
+	<?php endif ?>
+	</div>
+
+	<?php if(isset($data['errors']['username.exists'])): ?>
+		<div class="Notice">The requested user name already exists, try another one.</div>
+	<?php endif ?>
+	<?php if(isset($data['errors']['username.format'])): ?>
+		<div class="Notice">Characters other than letters and numbers are not allowed.</div>
+	<?php endif ?>
+	<div class="Field">
+		<label for="username">User name - Only letters and numbers allowed.</label>
+		<input name="username" type="text" size="32" maxlength="32" <?php echo isset($data['post']['username'])? 'value="'.$data['post']['username'].'"' : '' ?>>
+	</div>
+
+
+	<?php if(isset($data['errors']['email.format'])): ?>
+		<div class="Notice">Invalid e-mail address.</div>
+	<?php endif ?>
+	<div class="Field">
+		<label for="email">E-mail address.</label>
+		<input name="email" type="text" size="64" maxlength="128" <?php echo isset($data['post']['email'])? 'value="'.$data['post']['email'].'"' : '' ?>>
+	</div>
+
+	<?php if(isset($data['errors']['email.repeat'])): ?>
+		<div class="Notice">The e-mail confirmation does not match.</div>
+	<?php endif ?>
+	<div class="Field">
+		<label for="email-repeat">Confirm e-mail address.</label>
+		<input name="email-repeat" type="text" size="64" maxlength="128" <?php echo isset($data['post']['email-repeat'])? 'value="'.$data['post']['email-repeat'].'"' : '' ?>>
+	</div>
+
+	<?php if(isset($data['errors']['password.length'])): ?>
+		<div class="Notice">The password length must be of at least 8 characters.</div>
+	<?php endif ?>
+	<div class="Field">
+		<label for="password">Password - Must be at least 8 characters long.</label>
+		<input name="password" type="password" size="32" maxlength="32">
+	</div>
+
+	<?php if(isset($data['errors']['password.repeat'])): ?>
+		<div class="Notice">The password confirmation does not match.</div>
+	<?php endif ?>
+	<div class="Field">
+		<label for="password-repeat">Confirm password.</label>
+		<input name="password-repeat" type="password" size="32" maxlength="32">
+	</div>
+
+	<div class="Submit">
+		<input type="submit" value="Register">
+	</div>
+</div>

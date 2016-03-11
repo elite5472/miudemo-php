@@ -1,0 +1,28 @@
+<div class="View-Page-MainTemplate">
+	<div class="UserPanel">
+		<ul>
+		<?php foreach($data['userbar.items'] as $item): ?>
+			<li><?php echo $item?></li>
+		<?php endforeach ?>
+		</ul>
+	</div>
+	<div class="Header">
+		<div class="Title"><h1><?php echo $data['menubar.title'] ?></h1></div>
+		<div class="Menubar">
+			<ul>
+			<?php foreach($data['menubar.items'] as $item): ?>
+				<li><?php echo $item->toAnchor()?></li>
+			<?php endforeach ?>
+			<?php foreach($data['menubar.items.custom'] as $item): ?>
+				<li><?php echo $item->toAnchor()?></li>
+			<?php endforeach ?>
+			</ul>
+		</div>
+	</div>
+	<div class="LeftPanel">
+		<?php echo $components['panel']->render('html'); ?>
+	</div>
+	<div class="ContentPanel">
+		<?php echo $components['content']->render('html'); ?>
+	</div>
+</div>

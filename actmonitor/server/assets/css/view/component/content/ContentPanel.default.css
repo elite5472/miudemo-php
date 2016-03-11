@@ -1,0 +1,72 @@
+.Component-Content-ContentPanel
+{
+	margin: 0.8em;
+	margin-top: 0.22em;
+	padding: 0.4em;
+	padding-bottom: 0.8em;
+	color:#333;
+	background-color: #fff;
+	border: 0.1em solid #ddd;
+}
+
+.Component-Content-ContentPanel .Title
+{
+	padding: 0.4em 0em 0em 0em;
+	font-size: 1.6em;
+}
+
+.Component-Content-ContentPanel .ItemFrame
+{
+	padding: 0.8em 0.3em 0.4em 0.3em;
+	font-size: 1.1em;
+}
+
+.Component-Content-ContentPanel .ItemFrame li
+{
+	margin-bottom: 0.2em;
+}
+
+.Component-Content-ContentPanel .ItemFrame li a
+{
+	color: #333;
+	font-size: 0.9em;
+}
+
+.Component-Content-ContentPanel .ItemFrame li a:hover
+{
+	color: #ff8d30;
+}
+
+.Component-Content-ContentPanel .ItemFrame iframe
+{
+	border: 0.1em solid #ddd;
+	margin: 0.8em 0em 0.4em 0em;
+	padding: 0.3em;
+}
+
+.Component-Content-ContentPanel .ComponentFrame
+{
+	padding: 0.8em 0em 0.4em 0em;
+}
+
+.Component-Content-ContentPanel .TextFrame
+{
+	padding: 0.8em 0.3em 0.4em 0.3em;
+	font-size: 0.9em;
+	color: #666;
+}
+
+.Component-Content-ContentPanel .TextFrame p
+{
+	margin-top: 0em;
+	text-indent: 1em;
+}
+
+.Component-Content-ContentPanel hr
+{
+	margin: 0em;
+	margin-top: 1em;
+	padding: 0em;
+	border: none;
+	border-bottom: 0.1em solid #ddd;
+}

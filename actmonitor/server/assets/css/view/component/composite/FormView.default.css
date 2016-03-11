@@ -1,0 +1,105 @@
+form
+{
+	overflow: auto;
+	padding: 0em;
+}
+
+.Component-Composite-FormView
+{
+	border: 0.1em solid #ddd;
+	margin: 1em;
+	padding: 3em 3em 1em 3em;
+}
+
+.Component-Composite-FormView .Title
+{
+	margin: 0em 0em 2em 0em;
+	font-size: 1.4em;
+}
+
+.Component-Composite-FormView .Description
+{
+	color: #777;
+	font-size: 0.8em;
+	margin: 1em 0em 3em 0em;
+}
+
+.Component-Composite-FormView .Field
+{
+	margin: 1em 0em 2em 0em
+}
+
+.Component-Composite-FormView .Field .Description
+{
+	margin: 1em 0em 0.5em 0em;
+}
+
+.Component-Composite-FormView .Field label
+{
+	color: #777;
+	font-size: 0.9em;
+	display: block;
+	margin: 1em 0em 0.2em 0em
+}
+
+.Component-Composite-FormView .Field input
+{
+	margin: 0em;
+	margin-top: 0.5em;
+	display: block;
+	border: 0.1em solid #ddd;
+	background-color: #fff;
+	padding: 0.5em;
+}
+
+.Component-Composite-FormView .Field textarea
+{
+	margin: 0em;
+	margin-top: 0.5em;
+	display: block;
+	border: 0.1em solid #ddd;
+	background-color: #fff;
+	padding: 0.5em;
+}
+
+.Component-Composite-FormView .Section
+{
+	margin: 1em 0em 1em 0em;
+}
+
+.Component-Composite-FormView .Section label
+{
+	color: #777;
+	font-size: 0.9em;
+}
+
+.Component-Composite-FormView .Notice
+{
+	display: inline-block;
+	padding: 0.5em;
+	background-color: #ffed89;
+	border: 0.1em solid #ff8a00;
+	color: #761900;
+	font-size: 0.8em;
+	margin: 1em 0em;
+}
+
+.Component-Composite-FormView .Submit
+{
+	margin: 2em 0em 0em 0em;
+}
+
+.Component-Composite-FormView .Submit input
+{
+	margin: 0em;
+	margin-top: 0.5em;
+	border: 0.1em solid #ddd;
+	background-color: #fff;
+	padding: 1em;
+	font-size: 0.9em;
+}
+
+.Component-Composite-FormView .Submit input:hover
+{
+	color:#FF8D30;
+}

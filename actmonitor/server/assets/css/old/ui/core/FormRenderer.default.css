@@ -1,0 +1,69 @@
+.Generic-Form
+{
+	border: 0.1em solid #ddd;
+	margin: 1em;
+	padding: 3em 3em 1em 3em;
+}
+
+.Generic-Form .Title
+{
+	margin: 0em 0em 2em 0em;
+	font-size: 1.4em;
+}
+
+.Generic-Form .Description
+{
+	color: #777;
+	font-size: 0.8em;
+	margin: 1em 0em 3em 0em;
+}
+
+.Generic-Form .Field
+{
+	margin: 1em 0em 1em 0em
+}
+
+.Generic-Form .Field label
+{
+	color: #777;
+	font-size: 0.9em;
+	display: block;
+	margin: 1em 0em 0.2em 0em
+}
+
+.Generic-Form .Field input
+{
+	display: block;
+}
+
+.Generic-Form .Section
+{
+	margin: 1em 0em 1em 0em;
+}
+
+.Generic-Form .Section label
+{
+	color: #777;
+	font-size: 0.9em;
+}
+
+.Generic-Form .Notice
+{
+	display: inline-block;
+	padding: 0.5em;
+	background-color: #ffed89;
+	border: 0.1em solid #ff8a00;
+	color: #761900;
+	font-size: 0.8em;
+	margin: 1em 0em;
+}
+
+.Generic-Form .Submit
+{
+	margin: 2em 0em 0em 0em;
+}
+
+.Generic-Form .Submit input
+{
+
+}

@@ -1,0 +1,47 @@
+.Component-Content-ListItem
+{
+	overflow: auto;
+	display: block;
+	margin: 0.5em;
+	padding: 0.5em;
+	max-width: 50em;
+	min-width: 25em;
+	background-color: #ddd;
+	border: 0.1em solid #555;
+	color: #555
+}
+
+.Component-Content-ListItem .Title
+{
+	float: left;
+}
+
+.Component-Content-ListItem .Tag
+{
+	float: right;
+	font-size: 0.8em;
+}
+
+.Component-Content-ListItem.Green
+{
+	background-color: #CFFCC8;
+	color: #128D12;
+	border: 0.1em solid #128D12;
+}
+
+.Component-Content-ListItem.Green a
+{
+	color: #128D12;
+}
+
+.Component-Content-ListItem.Red
+{
+	background-color: #FFB3A9;
+	color: #CF3030;
+	border: 0.1em solid #CF3030;
+}
+
+.Component-Content-ListItem.Red a
+{
+	color: #CF3030;
+}

@@ -1,0 +1,16 @@
+.System-AddSystemForm.Component-Composite-FormView
+{
+	margin-top: 0.3em;
+	margin-left: 3em;
+	width: 27em;
+}
+
+.System-AddSystemForm.Component-Composite-FormView .Field input
+{
+	width: 28em;
+}
+
+.System-AddSystemForm.Component-Composite-FormView .Field textarea
+{
+	width: 28em;
+}

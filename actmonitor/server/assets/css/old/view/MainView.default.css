@@ -1,0 +1,114 @@
+.View-Main .UserPanel
+{
+	position: fixed;
+	z-index: 6;
+	top: 0;
+	left: 0;
+	
+	width:100%;
+	height:8em;
+	background-color:#444;
+	border-bottom: 0.1em solid #777
+}
+
+.View-Main .UserPanel ul li
+{
+	display: inline;
+	float: right;
+	list-style: none;
+	margin-right: 15px;
+	margin-top:5px;
+}
+
+.View-Main .UserPanel a
+{
+	color: #fff;
+}
+
+.View-Main .UserPanel a:hover
+{
+	color: #ffcda5;
+}
+
+.View-Main .Header
+{
+	position: fixed;
+	z-index: 8;
+	top: 1.8em;
+	left: 0;
+	
+	width: 100%;
+	height: 5em;
+	background-color:#fff;
+	overflow:auto;
+	border-top:0.1em solid #ccc;
+	border-bottom: 0.1em solid #aaa;
+}
+
+.View-Main .Header .Title
+{
+	width: 28em;
+	float: left;
+}
+
+.View-Main .Header .Title h1
+{
+	margin: 0;
+	padding: 0.65em 0em 0em 0.3em;
+	font-size: 2em;
+	color: #000;
+}
+
+.View-Main .Header .Menubar ul
+{
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+
+.View-Main .Header .Menubar li
+{
+	display: inline;
+	list-style: none;
+}
+
+.View-Main .Header .Menubar li a
+{
+	display: block;
+	float: left;
+	padding: 3.2em 1em 0.5em 1em;
+	color: #333;
+}
+
+.View-Main .Header .Menubar li a:hover
+{
+	color: #ff8d30;	
+}
+
+.View-Main .Header .Menubar li.Current a
+{
+	color: #ff8d30;	
+}
+
+.View-Main .LeftPanel
+{
+	position: fixed;
+	z-index: 7;
+	top: 0;
+	
+	width: 27em;
+	height: 100%;
+	
+	padding-top: 8em;
+	
+	background-color: #f5f5f5;
+	border-right: 0.1em solid #ddd;
+	
+	overflow:auto;
+}
+
+.View-Main .ContentPanel
+{
+	margin-top: 9em;
+	margin-left: 28em;
+}

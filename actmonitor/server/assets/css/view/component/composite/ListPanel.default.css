@@ -1,0 +1,15 @@
+.Component-Composite-ListPanel .ListPanelPageMenu
+{
+	margin: 1em;
+	padding: 1em;
+	border: 0.1em solid #ddd;
+	overflow: auto;
+	max-width: 54em;
+	min-width: 27em;
+}
+
+.Component-Composite-ListPanel .ListPanelPageMenu li
+{
+	float: left;
+	margin-right: 2em;
+}

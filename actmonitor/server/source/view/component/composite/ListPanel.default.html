@@ -1,0 +1,22 @@
+<div class="Component-Composite-ListPanel">
+
+	<?php if($data['is_multipage']):?>
+	<div class="ListPanelPageMenu"><ul>
+		<li><?php echo $data['previous']?></li>
+		<li><?php echo $data['next']?></li>
+	</ul></div>
+	<?php endif ?>
+
+	<?php foreach($components as $component): ?>
+	<div class="ListPanelItem">
+		<?php echo $component->render('html') ?>
+	</div>
+	<?php endforeach ?>
+
+	<?php if($data['is_multipage']):?>
+	<div class="ListPanelPageMenu"><ul>
+		<li><?php echo $data['previous']?></li>
+		<li><?php echo $data['next']?></li>
+	</ul></div>
+	<?php endif ?>
+</div>

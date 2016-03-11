@@ -1,0 +1,15 @@
+.Component-Composite-ListGroup
+{
+	margin: 2em 1em 2em 1em;
+	border: 0.1em solid #ddd;
+	overflow: auto;
+	min-width: 27em;
+	max-width: 55em;
+	padding: 0em 0.5em 2em 0.5em;
+}
+
+.Component-Composite-ListGroup .GroupTitle
+{
+	margin: 1em 0.5em 1.5em 0.5em;
+	font-size: 1.2em;
+}

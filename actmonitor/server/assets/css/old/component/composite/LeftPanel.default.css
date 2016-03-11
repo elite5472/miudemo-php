@@ -1,0 +1,15 @@
+.Composite-LeftPanel-ContentContainer
+{
+	overflow: auto;
+	margin-left: 28em;
+}
+
+.Composite-LeftPanel
+{
+	width: 27em;
+	height: 100%;
+	position: fixed;
+	background-color: #f5f5f5;
+	border-right: 0.1em solid #ddd;
+	overflow:auto;
+}

@@ -1,0 +1,11 @@
+.Security-LoginForm.Component-Composite-FormView
+{
+	width: 28em;
+	margin: 5em auto;
+}
+
+
+.Security-LoginForm .Field input
+{
+	width: 20em;
+}

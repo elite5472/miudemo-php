@@ -1,0 +1,9 @@
+.Component-Composite-FlowPanel
+{
+
+}
+
+.Component-Composite-FlowPanel .Item
+{
+	float: left;
+}

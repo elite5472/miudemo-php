@@ -1,0 +1,21 @@
+<div class="Security-LoginForm Component-Composite-FormView">
+	<div class="Title">Log In</div>
+	<?php if($data['error']): ?>
+		<div class="Notice"><?php echo $data['error'] ?></div>
+	<?php endif ?>
+	<div class="Field">
+		<label for="username">User name:</label>
+		<input name="username" type="text" size="32" maxlength="32">
+	</div>
+	<div class="Field">
+		<label for="password">Password:</label>
+		<input name="password" type="password" size="32" maxlength="32">
+	</div>
+	<div class="Section">
+		<input name="remember_me" type="checkbox" value="true">
+		<label for="remember_me">Remember me.</label>
+	</div>
+	<div class="Submit">
+		<input type="submit" value="Log In">
+	</div>
+</div>

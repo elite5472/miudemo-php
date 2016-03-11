@@ -1,0 +1,9 @@
+<div class="Component-Composite-ListGroup">
+	<div class="GroupTitle"><?php echo $data['title']?></div>
+
+	<?php foreach($components as $component): ?>
+	<div class="GroupItem">
+		<?php echo $component->render('html') ?>
+	</div>
+	<?php endforeach ?>
+</div>
